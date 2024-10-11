@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Russo+One&display=swap');
+
+
+:root{
+    --color-brand1:#172d13;
+    --color-brand:#d76f30;
+    --color-brand2:#6bb77b;
+   
+}
+
+@keyframes slideleft{
+    frome{transform: translateY(300%);}
+}
+body,header,main,footer{
+    background-color: var(--color-brand1);
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Bree Serif", serif;
+}
+.home-text h1{
+    color: var(--color-brand);
+}
+p,a{
+    font-family: "Bree Serif", serif;
+    color: var(--color-brand9);
+}
+.home-text a{
+    background-color: var(--color-brand);
+    /* border-color: #D91656;  */
+}
+.services-item {
+    /* background-color: var(--color-brand2); */
+    /* border-color: var(--color-brand2); */
+}
+.services-item{
+    box-shadow:-6px 6px 6px 6px #6bb77b;
+}
+.services-item h3{
+    color: #d76f30;
+}
+.services-item i{
+    color: #172d13;
+    
+}
+.services-item i{
+    background-color: var(--color-brand10);
+}
+.about-text{
+    background-color: var(--color-brand3); 
+    /* box-shadow: 2px 2px 2px 2px #6bb77b; */
+}
+.about-text h4{
+    color: var(--color-brand);
+}
+.about-text p{
+    color: aliceblue;
+}
+.skill-item h3{
+    color: var(--color-brand);
+}
+.testi-item p{
+    font-family: "Noto Serif", serif;
+    color: var(--color-brand5);
+}
+.progress-bar {
+     /* background-color: var(--color-brand2); */
+}
+.head-text h3{
+    color: var(--color-brand9);
+}
+.icon i{
+    color: #d76f30;
+}
+.text h3{
+    color: var(--color-brand7);
+}
+.carousel-indicators button{
+    /* color: var(--color-brand2); */
+}
+.carousel-inner{
+    /* background-color: #6bb77b; */
+    box-shadow:4px 4px 4px 4px  #6bb77b;
+}
+.prjct h2{
+    color: #d76f30;
+}
+.msg button{
+    background-color: var(--color-brand);
+    font-family: "Bree Serif", serif;
+
+    /* border-color: var(--color-brand2); */
+}
+.text input{
+    border-color: #6bb77b;
+    border-width: 1px;
+    background-color: #172d13;
+}
+.text textarea{
+    border-color: #6bb77b;
+    border-width: 1px;
+    background-color: #172d13;
+}
